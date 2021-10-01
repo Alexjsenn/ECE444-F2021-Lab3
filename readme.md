@@ -2,7 +2,24 @@
 ### Alexander Senn
 ### This repo is a clone of https://github.com/nelaturuk/education_pathways.
 
+#### Activity 1:
+![A1](screenshots/A1.png)
 
+#### Activity 2:
+![A2](screenshots/A2.png)
+
+#### Activity 3:
+![A3](screenshots/A3.png)
+
+#### Activity 4:
+![A4-1](screenshots/A4-1.png)
+![A4-2](screenshots/A4-2.png)
+
+#### Activity 5:
+##### Functional Requirement: Search for courses
+Currently the search uses a rudimentary algorithm to predict and match search terms with courses, but it is not very robust and doesn't work with prefixes. For example, it doesn't perform as expcted when searching "ECE4". This should be improved by reworking the search algorithm to better deal with all the metadata associated with each course.
+##### Non-functional Requirement: Usability
+The current interface is not very intuitive. It should present the search results in a more readable layout and provide search tools in more intuitive and flexible ways. For example, through the use of differentiating UI elements, required and non required fields should be made clear to the user, allowing the user to more quicky input search queries.
 
 
 
